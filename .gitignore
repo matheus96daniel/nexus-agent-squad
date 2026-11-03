@@ -1,0 +1,19 @@
+# Segredos
+.env
+.env.*
+!.env.example
+credenciais.json
+credentials.json
+*.pem
+*.key
+
+# Estado e dados operacionais
+state/
+dados*.json
+*.local.json
+.claude/
+
+# Sistema
+Thumbs.db
+.DS_Store
+node_modules/
